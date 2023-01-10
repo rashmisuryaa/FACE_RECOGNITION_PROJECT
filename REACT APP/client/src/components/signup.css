@@ -1,0 +1,54 @@
+body{
+  display: grid;
+  place-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 24px;
+  background-image: url("back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:pan 4s infinite alternate linear; 
+}
+@media(width>=500px){
+  body{
+      padding: 0;
+  }
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  
+  margin-left: 0;
+}
+.login-card{
+  position: absolute;
+  left:120px;
+  top:120px;
+  width: 100%;
+  max-width: 380px;
+  padding: 80px 40px 40px;
+  background: rgba(80, 76, 76, 0.804);
+  border-radius: 10px;
+  color: rgb(204, 194, 194);
+  box-shadow: 0 15px 25px rgba(94, 86, 86, 0.5);
+  margin-left: 0;
+  align-items: left;
+}
+
+button{
+  background-color:aquamarine;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:gray;
+}
+
+a {
+  color: white;
+}
+h1{
+  color:black;
+}
